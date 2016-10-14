@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+<meta charset = "utf-8">
+<title>Entradas e Saidas</Title>
+</head>
+<Body>
+<div>
+<topo><H1>Informaçoes salvas com sucesso</H1></topo>
+</br></br></br>
 <?php
 include_once ('config/conexao.php');
 $ProdNome =$_POST['nome'];
@@ -14,4 +25,14 @@ VALUES
 
 $Salvar = mysqli_query($conexao, $SalvarDados);
 
+header("Localização: movimentacao.php");
+
+
+
 ?>
+Caso voce não seja redirecionado <a href="movimentacao.php">clique aqui</a>
+
+</div>
+</form>
+</body>
+</html>
