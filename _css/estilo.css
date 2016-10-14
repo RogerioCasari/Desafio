@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+	background-color: #CDC9C9;
+	
+}
+
+texto {
+	font-weight: bolder;
+	text-align: left;
+	
+}
+
+topo{
+	
+	font-weight: bolder;
+	text-align: center;
+	
+}
+
+destaque{
+	color: red;
+}
+
+link{
+	
+	text-align: right;
+	
+}
